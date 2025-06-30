@@ -1,10 +1,14 @@
-﻿namespace PatternBasedProblems
+﻿using PatternBasedProblems.Two_Pointers;
+
+namespace PatternBasedProblems
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            ThreeSum.ThreeSumM();
+            Console.WriteLine("Hello World");
         }
     }
 }

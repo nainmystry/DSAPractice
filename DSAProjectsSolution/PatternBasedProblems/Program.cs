@@ -1,4 +1,5 @@
-﻿using PatternBasedProblems.Two_Pointers;
+﻿using PatternBasedProblems.Arrays;
+using PatternBasedProblems.Two_Pointers;
 
 namespace PatternBasedProblems
 {
@@ -9,7 +10,11 @@ namespace PatternBasedProblems
 
             //ThreeSum.ThreeSumM();
 
-            ContainerWithMostWater.MaxArea();
+            //ContainerWithMostWater.MaxArea();
+
+            //TrappingRainWater.Trap();
+            
+            LongestConsecutiveSequence.LongestConsecutive();
             Console.WriteLine("Hello World");
         }
     }

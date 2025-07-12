@@ -3,9 +3,10 @@
 public class TrappingRainWater
 {
     //“Two-pointer” + “Boundary tracking”
-    public int Trap()
+    public static int Trap()
     {
         int[] wallHeight = new int[12] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+        //int[] wallHeight = new int[8] { 0, 1, 0, 2, 0, 1, 0, 0 };
 
         int leftIndex = 0, rightIndex = wallHeight.Length - 1;
 
@@ -21,7 +22,8 @@ public class TrappingRainWater
                 }
                 else
                 {
-                    trappedWater += leftMax - wallHeight[leftIndex];
+                    var waterTrappedLeft = leftMax - wallHeight[leftIndex];
+                    trappedWater += waterTrappedLeft;
                 }
                 leftIndex++;
             }
@@ -33,7 +35,8 @@ public class TrappingRainWater
                 }
                 else
                 {
-                    trappedWater += rightMax - wallHeight[rightIndex];
+                    var waterTrappedRight = rightMax - wallHeight[rightIndex];
+                    trappedWater += waterTrappedRight;
                 }
                 rightIndex--;
             }

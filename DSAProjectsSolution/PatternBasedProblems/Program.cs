@@ -1,4 +1,5 @@
 ﻿using PatternBasedProblems.Arrays;
+using PatternBasedProblems.Strings;
 using PatternBasedProblems.Two_Pointers;
 
 namespace PatternBasedProblems
@@ -13,8 +14,10 @@ namespace PatternBasedProblems
             //ContainerWithMostWater.MaxArea();
 
             //TrappingRainWater.Trap();
-            
-            LongestConsecutiveSequence.LongestConsecutive();
+
+            //LongestConsecutiveSequence.LongestConsecutive();
+
+            LongestSubstringWithoutRepeatingChar.LengthOfLongestSubstring();
             Console.WriteLine("Hello World");
         }
     }

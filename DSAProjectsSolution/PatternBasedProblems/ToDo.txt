@@ -160,7 +160,7 @@ Arrays / Two Pointers / Hashing
 3. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/description/
 
 Strings
-4. Longest Substring Without Repeating Characters: https://lnkd.in/gCPCfm89
+4. Longest Substring Without Repeating Characters: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 5. Minimum Window Substring: https://lnkd.in/gHn6tqru
 
 Dynamic Programming (DP)
